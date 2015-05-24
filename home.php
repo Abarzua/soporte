@@ -89,7 +89,7 @@ $apellidos = $fila['apellidos'];
                                 <a href="equipos.php">Notebook - PC's</a>
                             </li>
                             <li>
-                                <a href="impresoras.php">IMpresoras RICOH</a>
+                                <a href="impresoras.php">Impresoras RICOH</a>
                             </li>
                             <li>
                                 <a href="proyectores.php">Data Show</a>
