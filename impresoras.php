@@ -150,13 +150,13 @@ $apellidos = $fila['apellidos'];
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Two Column Portfolio
-                    <small>Subheading</small>
+                <h1 class="page-header">Impresoras
+                    <small>Administración de Activos</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="home.php">Home</a>
                     </li>
-                    <li class="active">Two Column Portfolio</li>
+                    <li class="active">Impresoras</li>
                 </ol>
             </div>
         </div>
