@@ -163,7 +163,32 @@ $apellidos = $fila['apellidos'];
         </div>
         <!-- /.row -->
         
-        
+        <!-- Botón de apertura -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+  Imagen de los Soportes
+</button>
+ 
+<!-- Ventana Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Imagen Soporte 2015</h4>
+      </div>
+      <div class="modal-body">
+      Imagen de la organización del Área
+      <hr>
+        <img class="img-responsive" src="img/organigrama2015.png">
+       
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
         <hr>
         <!-- Footer -->
