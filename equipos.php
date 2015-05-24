@@ -152,7 +152,7 @@ $apellidos = $fila['apellidos'];
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Notebook - PC's
-                    <small>Administracion de Activos</small>
+                    <small>Administración de Activos</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="home.php">Home</a>
@@ -162,11 +162,10 @@ $apellidos = $fila['apellidos'];
             </div>
         </div>
         <!-- /.row -->
-
+        
         
 
         <hr>
-
         <!-- Footer -->
         <footer>
             <div class="row">
