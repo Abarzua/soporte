@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Inventario | Soporte Informático</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" SRC="bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+       <p align="center"> <a href="http://www.saesa.cl">
+        <IMG SRC="img/saesa.jpg" WIDTH=300 HEIGHT=180 ALT="www.saesa.cl"></a></p>
+    <hr width="100%" /> 
+   
+    <form action="script_acceso_usuario.php" method="post" name="frm_ingreso" id="frm_ingreso">
+      <table align="center">
+        <tr>
+          <td colspan="2">
+            
+              <h4>Inicio de Sesión | PAA</h4> 
+            
+          </td>
+        </tr>
+         <td>&nbsp;</td>
+        <tr>
+          <td colspan="2">
+            <div align="justify">
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+            <td width="33%">
+              <div align="right">
+              
+              </div>
+            </td>
+            <td width="67%">
+              <div align="center">
+                <input name="usuario" requerid="" type="text" id="usuario" class="form-control" placeholder="nombre.apellido" />
+              </div>
+            </td>
+        </tr>
+        <td>&nbsp;</td>
+        <tr>
+            <td>
+              <div align="right">
+                
+              </div>
+            </td>
+            <td>
+                <input name="password" type="password" id="password" class="form-control" placeholder="Contraseña"/>
+            
+            </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><div align="left">
+              <input type="submit" name="Submit" value="Ingresar" class="btn btn-success"/>
+          </div></td>
+        </tr>
+      </table>
+    </form>
+    <p>&nbsp;</p>
+  <hr width="100%" />
+  </div>  
+  
+</body>
+
+</html>
