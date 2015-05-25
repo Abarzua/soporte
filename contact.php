@@ -1,3 +1,29 @@
+<?php
+//Proceso de conexión con la base de datos
+$conex = mysql_connect("localhost", "root", "1q2w3e4r5t")
+        or die("No se pudo realizar la conexion");
+    mysql_select_db("inventario",$conex)
+        or die("ERROR con la base de datos");
+
+//Iniciar Sesión
+session_start();
+
+//Validar si se está ingresando con sesión correctamente
+if (!$_SESSION){
+echo '<script language = javascript>
+alert("usuario no autenticado")
+self.location = "index.html"
+</script>';
+}
+$id_usuario = $_SESSION['id_user'];
+
+$consulta= "SELECT * FROM usuarios WHERE id_user='".$id_usuario."'"; 
+$resultado= mysql_query($consulta,$conex) or die (mysql_error());
+$fila=mysql_fetch_array($resultado);
+$apellidos = $fila['apellidos'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,47 +63,47 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Navegacion</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+                <a class="navbar-brand" href="home.php">HOME</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.php">About</a>
+                        <a href="about.php">QUIENES SOMOS?</a>
                     </li>
                     <li>
-                        <a href="services.php">Services</a>
+                        <a href="services.php">SERVICIOS</a>
                     </li>
                     <li class="active">
-                        <a href="contact.php">Contact</a>
+                        <a href="contact.php">CONTACTO</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">INVENTARIO <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.php">1 Column Portfolio</a>
+                                <a href="equipos.php"><span class="glyphicon glyphicon-blackboard" ></span> Notebook - PC's</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.php">2 Column Portfolio</a>
+                                <a href="impresoras.php"><span class="glyphicon glyphicon-print" ></span> Impresoras RICOH</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.php">3 Column Portfolio</a>
+                                <a href="proyectores.php"><span class="glyphicon glyphicon-film" ></span> Data Show</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.php">4 Column Portfolio</a>
+                                <a href="captores.php"><span class="glyphicon glyphicon-phone" ></span> Captores de Datos</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.php">Single Portfolio Item</a>
+                                <a href="reportes.php"><span class="glyphicon glyphicon-duplicate" ></span> Reportes</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">USUARIOS <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="blog-home-1.php">Blog Home 1</a>
@@ -91,22 +117,22 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="mayuscula"><strong><? echo $_SESSION['nombres'];?></strong></span> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.php">Full Width Page</a>
+                                <a href="404.php"><span class="glyphicon glyphicon-cog" ></span> Configuración</a>
                             </li>
                             <li>
-                                <a href="sidebar.php">Sidebar Page</a>
+                                <a href="perfil.php"><span class="glyphicon glyphicon-user" ></span> Editar Perfil</a>
                             </li>
                             <li>
-                                <a href="faq.php">FAQ</a>
+                                <a href="about.php"><span class="glyphicon glyphicon-question-sign" > About</a>
                             </li>
+                            <hr>
                             <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.php">Pricing Table</a>
+                                <a <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
+                                <span class="glyphicon glyphicon-off" > 
+                                Salir</a>
                             </li>
                         </ul>
                     </li>
@@ -116,20 +142,19 @@
         </div>
         <!-- /.container -->
     </nav>
-
     <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                <h1 class="page-header">CONTACTO
+                    <small>Administración de Activos</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.php">Home</a>
+                    <li><a href="home.php">HOME</a>
                     </li>
-                    <li class="active">Contact</li>
+                    <li class="active">CONTACTO</li>
                 </ol>
             </div>
         </div>
@@ -140,13 +165,13 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=3-40.573269,-73.138200&amp;spn=-40.573269,-73.138200&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.6703412221036!2d-73.13886850000058!3d-40.57095660908347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961636f4ef1b214f%3A0x8e96bdd8207cb925!2sManuel+Bulnes+443%2C+Osorno%2C+10+Regi%C3%B3n!5e0!3m2!1sen!2scl!4v1432517957093" width="600" height="450" frameborder="0" style="border:0"></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
+                <h3>Detalle de Contacto</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    Manuel Bulnes 443<br>Los Lagos, Osorno<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: (123) 456-7890</p>

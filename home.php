@@ -86,19 +86,19 @@ $apellidos = $fila['apellidos'];
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">INVENTARIO <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="equipos.php">Notebook - PC's</a>
+                                <a href="equipos.php"><span class="glyphicon glyphicon-blackboard" ></span> Notebook - PC's</a>
                             </li>
                             <li>
-                                <a href="impresoras.php">Impresoras RICOH</a>
+                                <a href="impresoras.php"><span class="glyphicon glyphicon-print" ></span> Impresoras RICOH</a>
                             </li>
                             <li>
-                                <a href="proyectores.php">Data Show</a>
+                                <a href="proyectores.php"><span class="glyphicon glyphicon-film" ></span> Data Show</a>
                             </li>
                             <li>
-                                <a href="captores.php">Captores de Datos</a>
+                                <a href="captores.php"><span class="glyphicon glyphicon-phone" ></span> Captores de Datos</a>
                             </li>
                             <li>
-                                <a href="reportes.php">Reportes</a>
+                                <a href="reportes.php"><span class="glyphicon glyphicon-duplicate" ></span> Reportes</a>
                             </li>
                         </ul>
                     </li>
@@ -120,17 +120,18 @@ $apellidos = $fila['apellidos'];
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="mayuscula"><strong><? echo $_SESSION['nombres'];?></strong></span> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="404.php">Configuración</a>
+                                <a href="404.php"><span class="glyphicon glyphicon-cog" ></span> Configuración</a>
                             </li>
                             <li>
-                                <a href="perfil.php">Editar Perfil</a>
+                                <a href="perfil.php"><span class="glyphicon glyphicon-user" ></span> Editar Perfil</a>
                             </li>
                             <li>
-                                <a href="about.php">About</a>
+                                <a href="about.php"><span class="glyphicon glyphicon-question-sign" > About</a>
                             </li>
                             <hr>
                             <li>
                                 <a <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
+                                <span class="glyphicon glyphicon-off" > 
                                 Salir</a>
                             </li>
                         </ul>
