@@ -167,7 +167,7 @@ $apellidos = $fila['apellidos'];
                     </center>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-info btn-sm" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
