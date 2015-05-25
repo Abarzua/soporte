@@ -127,7 +127,7 @@ $apellidos = $fila['apellidos'];
                                 <a href="perfil.php"><span class="glyphicon glyphicon-user" ></span> Editar Perfil</a>
                             </li>
                             <li>
-                                <a href="about.php"><span class="glyphicon glyphicon-question-sign" > About</a>
+                                <a href="#"><span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#myModal"> About</a> 
                             </li>
                             <hr>
                             <li>
@@ -143,6 +143,37 @@ $apellidos = $fila['apellidos'];
         </div>
         <!-- /.container -->
     </nav>
+
+    <!-- Ventana Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <center><h2 class="modal-title" id="myModalLabel">Plataforma Administración de Activos</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><h3>Soporte Informático Grupo Saesa</h3></center>
+                    <hr>
+                    <center>
+                    <div>
+                        <from class="from">
+                            <p>Plataforma de Inventario</p>
+                            <p>Desarrollado por el Área Soporte Informático</p>
+                            <p>Grupo SAESA 2015</p>
+                            <p>Todos los derechos Reservados</p>
+                        </from>
+                    </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Fin de la ventana Modal de About -->
 
     <!-- contenido de la pagina "equipos.php" -->
     <div class="container">

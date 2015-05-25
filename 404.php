@@ -35,7 +35,7 @@ $apellidos = $fila['apellidos'];
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>404 | Administración de Activos</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -126,7 +126,7 @@ $apellidos = $fila['apellidos'];
                                 <a href="sidebar.php"></a>
                             </li>
                             <li>
-                                <a href="faq.php">FAQ</a>
+                                <a href="#"><span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#myModal"> About</a> 
                             </li>
                             <li>
                                 <a href="404.php">404</a>
