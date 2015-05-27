@@ -58,7 +58,7 @@ $apellidos = $fila['apellidos'];
 <body>
 
     <!-- Navigation -->
-     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -86,19 +86,19 @@ $apellidos = $fila['apellidos'];
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">INVENTARIO <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="equipos.php">Notebook - PC's</a>
+                                <a href="equipos.php"><span class="glyphicon glyphicon-blackboard" ></span> Notebook - PC's</a>
                             </li>
                             <li>
-                                <a href="impresoras.php">IMpresoras RICOH</a>
+                                <a href="impresoras.php"><span class="glyphicon glyphicon-print" ></span> Impresoras RICOH</a>
                             </li>
                             <li>
-                                <a href="proyectores.php">Data Show</a>
+                                <a href="proyectores.php"><span class="glyphicon glyphicon-film" ></span> Data Show</a>
                             </li>
                             <li>
-                                <a href="captores.php">Captores de Datos</a>
+                                <a href="captores.php"><span class="glyphicon glyphicon-phone" ></span> Captores de Datos</a>
                             </li>
                             <li>
-                                <a href="reportes.php">Reportes</a>
+                                <a href="reportes.php"><span class="glyphicon glyphicon-duplicate" ></span> Reportes</a>
                             </li>
                         </ul>
                     </li>
@@ -120,20 +120,19 @@ $apellidos = $fila['apellidos'];
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="mayuscula"><strong><? echo $_SESSION['nombres'];?></strong></span> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.php">Perfil</a>
+                                <a href="404.php"><span class="glyphicon glyphicon-cog" ></span> Configuración</a>
                             </li>
                             <li>
-                                <a href="sidebar.php"></a>
+                                <a href="perfil.php"><span class="glyphicon glyphicon-user" ></span> Editar Perfil</a>
                             </li>
                             <li>
                                 <a href="#"><span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#myModal"> About</a> 
                             </li>
+                            <hr>
                             <li>
-                                <a href="404.php">404</a>
-                            </li>
-                            <li>
-                                <a <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
-                                Cerrar Sesión</a>
+                                <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
+                                <span class="glyphicon glyphicon-off" > 
+                                Salir</a>
                             </li>
                         </ul>
                     </li>
@@ -143,6 +142,38 @@ $apellidos = $fila['apellidos'];
         </div>
         <!-- /.container -->
     </nav>
+
+<!-- Ventana Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <center><h2 class="modal-title" id="myModalLabel">Plataforma Administración de Activos</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><h3>Soporte Informático Grupo Saesa</h3></center>
+                    <hr>
+                    <center>
+                    <div>
+                        <from class="from">
+                            <p>Plataforma de Inventario</p>
+                            <p>Desarrollado por el Área Soporte Informático</p>
+                            <p>Grupo SAESA 2015</p>
+                            <p>Todos los derechos Reservados</p>
+                        </from>
+                    </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Fin de la ventana Modal de About -->
+
     <!-- Page Content -->
     <div class="container">
 

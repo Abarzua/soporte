@@ -255,7 +255,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/jefe.png"></center>
                                 <hr>
-                                <center>Email: <a href="">jose.espinoza@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:jose.espinoza@saesa.cl">jose.espinoza@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -276,7 +276,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/luis.png"></center>
                                 <hr>
-                                <center>Email: <a href="">luis.abarzua@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:luis.abarzua@saesa.cl">luis.abarzua@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -297,7 +297,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/magaly.png"></center>
                                 <hr>
-                                <center>Email: <a href="">magaly.alarcon@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:magaly.alarcon@saesa.cl">magaly.alarcon@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -318,7 +318,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/sergio.png"></center>
                                 <hr>
-                                <center>Email: <a href="">sergio.albarracin@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:sergio.albarracin@saesa.cl">sergio.albarracin@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -339,7 +339,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/victor.png"></center>
                                 <hr>
-                                <center>Email: <a href="">victor.contreras@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:victor.contreras@saesa.cl">victor.contreras@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -361,7 +361,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/beatriz.png"></center>
                                 <hr>
-                                <center>Email: <a href="">beatriz.gueicha@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:beatriz.gueicha@saesa.cl">beatriz.gueicha@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -383,7 +383,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/jaime.png"></center>
                                 <hr>
-                                <center>Email: <a href="">jaime.maldonado@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:jaime.maldonado@saesa.cl">jaime.maldonado@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -405,7 +405,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img class="img" width="500" height="250" src="img/ricardo.png"></center>
                                 <hr>
-                                <center>Email: <a href="">ricardo.munoz@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:ricardo.munoz@saesa.cl">ricardo.munoz@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">

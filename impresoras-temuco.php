@@ -24,6 +24,7 @@ $apellidos = $fila['apellidos'];
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +36,7 @@ $apellidos = $fila['apellidos'];
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PERFIL | Administración de Activos</title>
+    <title>IMPRESORAS | Administraci+on de Activos</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +59,7 @@ $apellidos = $fila['apellidos'];
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -82,7 +83,7 @@ $apellidos = $fila['apellidos'];
                     <li>
                         <a href="contact.php">CONTACTO</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">INVENTARIO <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -130,7 +131,7 @@ $apellidos = $fila['apellidos'];
                             </li>
                             <hr>
                             <li>
-                                <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
+                                <a <a onclick="javascript: if(!confirm('¿De verdad quieres finalizar tu sesi&oacute;n?\n\nsi es as&iacute;, presiona ACEPTAR si no,\nentonces  presiona el bot&oacute;n CANCELAR')) return false"[<a href='desconectar_usuario.php']";">
                                 <span class="glyphicon glyphicon-off" > 
                                 Salir</a>
                             </li>
@@ -143,7 +144,7 @@ $apellidos = $fila['apellidos'];
         <!-- /.container -->
     </nav>
 
-<!-- Ventana Modal -->
+    <!-- Ventana Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -173,26 +174,124 @@ $apellidos = $fila['apellidos'];
         </div>
     </div>
 <!-- Fin de la ventana Modal de About -->
+
     <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Editar Perfil
+                <h1 class="page-header">Impresoras
                     <small>Administración de Activos</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="home.php">HOME</a>
+                    <li><a href="home.php">Home</a>
                     </li>
-                    <li class="active">EDITAR PERFIL</li>
+                    <li class="active">Impresoras</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Content Row -->
-     
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project One</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Two</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Three</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Four</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Five</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-6 img-portfolio">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="portfolio-item.html">Project Six</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- /.row -->
 
         <hr>
