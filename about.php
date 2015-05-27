@@ -53,6 +53,11 @@ $apellidos = $fila['apellidos'];
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+        <script type="text/javascript" src="js/prototype.js"></script>
+        <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
 
 </head>
 
@@ -218,6 +223,7 @@ $apellidos = $fila['apellidos'];
 
                               </div>
                               <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
                               </div>
                             </div>
                           </div>
@@ -232,6 +238,181 @@ $apellidos = $fila['apellidos'];
         </div>
         <!-- /.row -->
 
+<!-- Ventanas de las imagenes pequeñas -->
+
+                 <!-- Ventana Modal JOSE ESPINOZA -->
+                        <div class="modal fade" id="Jose" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Jose">Jefe de Área Soporte Informático</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/jefe.png"></center>
+                                <hr>
+                                <center>Email: <a href="">jose.espinoza@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA LUXO -->
+                 <!-- Ventana Modal LUIS ABARZUA -->
+                        <div class="modal fade" id="Luis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Luis">Soporte Informático Valdivia</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/luis.png"></center>
+                                <hr>
+                                <center>Email: <a href="">luis.abarzua@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA LUIS -->
+                 <!-- Ventana Modal MAGALY ALARCON -->
+                        <div class="modal fade" id="Magy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Magy">Soporte Informático Osorno</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/magaly.png"></center>
+                                <hr>
+                                <center>Email: <a href="">magaly.alarcon@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA MAGALY -->
+                 <!-- Ventana Modal SERGIO ALBARRACIN -->
+                        <div class="modal fade" id="Sergio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Sergio">Soporte Informático Puerto Montt</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/sergio.png"></center>
+                                <hr>
+                                <center>Email: <a href="">sergio.albarracin@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA SERGIO -->
+                 <!-- Ventana Modal VICTOR CONTRERAS -->
+                        <div class="modal fade" id="Victor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Victor">Soporte Informático Osorno</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/victor.png"></center>
+                                <hr>
+                                <center>Email: <a href="">victor.contreras@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA VICTOR -->
+
+                 <!-- Ventana Modal BEATRIZ GUEICHA -->
+                        <div class="modal fade" id="Beatriz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Beatriz">Soporte Informático Coyhaique </h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/beatriz.png"></center>
+                                <hr>
+                                <center>Email: <a href="">beatriz.gueicha@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA BEATRIZ -->
+
+<!-- Ventana Modal JAIME MALDONADO -->
+                        <div class="modal fade" id="Jaime" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Jaime">Soporte Informático Temuco</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/jaime.png"></center>
+                                <hr>
+                                <center>Email: <a href="">jaime.maldonado@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA JAIME -->
+                                             
+<!-- Ventana Modal RICARDO MALDONADO -->
+                        <div class="modal fade" id="Ricardo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h2 class="modal-title" id="Ricardo">Soporte Informático Concepción</h2></center>
+                              </div>
+                              <div class="modal-body">
+                                <center><img class="img" width="500" height="250" src="img/ricardo.png"></center>
+                                <hr>
+                                <center>Email: <a href="">ricardo.munoz@saesa.cl</a></center>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                <!-- FIN VENTANA RICARDO -->                                                                       
+
+<!-- FIN DE LAS IMAGENES PEQUEÑAS -->
         <!-- Team Members -->
         <div class="row">
             <div class="col-lg-12">
@@ -239,7 +420,9 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/jefe.jpg" alt="">
+
+                     <img class="img-responsive" src="img/jefe.jpg" data-toggle="modal" data-target="#Jose">
+                    </img>
                     <div class="caption">
                         <h3>José Manuel Espinoza<br>
                             <small>Jefe Área Soporte</small>
@@ -254,11 +437,14 @@ $apellidos = $fila['apellidos'];
                             </li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
+
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/luis.PNG" alt="">
+                    <img class="img-responsive" src="img/luis.png" data-toggle="modal" data-target="#Luis">
+                    </img> 
                     <div class="caption">
                         <h3>Luis Abarzúa<br>
                             <small>Soporte Informático Valdivia</small>
@@ -276,7 +462,8 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/magaly.PNG" alt="">
+                    <img class="img-responsive" src="img/magaly.png" data-toggle="modal" data-target="#Magy">
+                    </img> 
                     <div class="caption">
                         <h3>Magaly Alarcón<br>
                             <small>Soporte Informático Osorno</small>
@@ -294,7 +481,8 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/sergio.PNG" alt="">
+                    <img class="img-responsive" src="img/sergio.png" data-toggle="modal" data-target="#Sergio">
+                    </img> 
                     <div class="caption">
                         <h3>Sergio Albarracín<br>
                             <small>Soporte Informático Pto. Montt</small>
@@ -312,7 +500,8 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/victor.PNG" alt="">
+                    <img class="img-responsive" src="img/victor.png" data-toggle="modal" data-target="#Victor">
+                    </img> 
                     <div class="caption">
                         <h3>Victor Contreras<br>
                             <small>Soporte Informático Osorno</small>
@@ -330,7 +519,8 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/beatriz.PNG" alt="">
+                   <img class="img-responsive" src="img/beatriz.png" data-toggle="modal" data-target="#Beatriz">
+                    </img> 
                     <div class="caption">
                         <h3>Beatriz Gueicha<br>
                             <small>Soporte Informático Coyhaique</small>
@@ -350,7 +540,8 @@ $apellidos = $fila['apellidos'];
             <div class="col-xs-6 col-sm-4"></div>
             <div class="col-md-4 text-center">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="img/jaime.PNG" alt="">
+                        <img class="img-responsive" src="img/jaime.png" data-toggle="modal" data-target="#Jaime">
+                    </img> 
                         <div class="caption">
                             <h3>Jaime Maldonado<br>
                                 <small>Soporte Informático Temuco</small>
@@ -368,7 +559,8 @@ $apellidos = $fila['apellidos'];
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="img/ricardo.PNG" alt="">
+                        <img class="img-responsive" src="img/ricardo.png" data-toggle="modal" data-target="#Ricardo">
+                    </img> 
                         <div class="caption">
                             <h3>Ricardo Muñoz<br>
                                 <small>Soporte Informático Concepción</small>

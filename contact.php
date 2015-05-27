@@ -156,14 +156,14 @@ $apellidos = $fila['apellidos'];
                     <center><h3>Soporte Informático Grupo Saesa</h3></center>
                     <hr>
                     <center>
-                    <div>
-                        <from class="from">
-                            <p>Plataforma de Inventario</p>
-                            <p>Desarrollado por el Área Soporte Informático</p>
-                            <p>Grupo SAESA 2015</p>
-                            <p>Todos los derechos Reservados</p>
-                        </from>
-                    </div>
+                        <div>
+                            <from class="from">
+                                <p>Plataforma de Inventario</p>
+                                <p>Desarrollado por el Área Soporte Informático</p>
+                                <p>Grupo SAESA 2015</p>
+                                <p>Todos los derechos Reservados</p>
+                            </from>
+                        </div>
                     </center>
                 </div>
                 <div class="modal-footer">
