@@ -187,32 +187,32 @@ $apellidos = $fila['apellidos'];
 
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" ><center><img width=900 HEIGHT=300 src="img/soporte.PNG"></center></div>
+                <div class="fill" ><center><img  width="100%" HEIGHT=300 src="img/soporte.PNG"></center></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill"><center><img width=900 HEIGHT=200 src="img/office365.PNG"></center></div>
+                <div class="fill"><center><img width="100%" HEIGHT=200 src="img/office365.PNG"></center></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill"><center><img width=900 HEIGHT=250 src="img/soporte2.JPG"></center></div>
+                <div class="fill"><center><img width="100%" HEIGHT=250 src="img/soporte2.JPG"></center></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
             <div class="item">
-                <div class=""><center><img width=900 HEIGHT=250 src="img/soporte3.jpg" class="responsive"></center></div>
+                <div class=""><center><img width="100%" HEIGHT=250 src="img/soporte3.jpg" class="responsive"></center></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
            
             <div class="item">
-                <div class=""><center><img width=900 HEIGHT=250 src="img/organigrama2015.png" class="responsive"></center></div>
+                <div class=""><center><img width="100%" HEIGHT=250 src="img/organigrama2015.png" class="responsive"></center></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>

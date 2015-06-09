@@ -209,25 +209,19 @@ $apellidos = $fila['apellidos'];
                          
                         <!-- Ventana Modal -->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                          <div class="modal-dialog-m">
+                          <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <center><h2 class="modal-title" id="myModalLabel">Imagen Soporte 2015</h2></center>
+                                <center><h3 class="modal-title" id="myModalLabel">Organigrama Área Soporte Informático 2015</h3></center>
                               </div>
                               <div class="modal-body">
-                              <center><h3>Organigrama Área Soporte Informático 2015</h3></center>
-                               <hr>
                                 <center><img class="img-responsive" src="img/organigrama2015.png"></center>
-                               
-
                               </div>
                               <div class="modal-footer">
-<<<<<<< HEAD
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-=======
-                                <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
->>>>>>> origin/master
+
                               </div>
                             </div>
                           </div>
@@ -253,7 +247,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Jose">Jefe de Área Soporte Informático</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/jefe.png"></center>
+                                <center><img width="100%" height="200" src="img/jefe.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:jose.espinoza@saesa.cl">jose.espinoza@saesa.cl</a></center>
 
@@ -274,7 +268,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Luis">Soporte Informático Valdivia</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/luis.png"></center>
+                                <center><img width="100%" height="200" src="img/luis.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:luis.abarzua@saesa.cl">luis.abarzua@saesa.cl</a></center>
 
@@ -295,7 +289,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Magy">Soporte Informático Osorno</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/magaly.png"></center>
+                                <center><img width="100%" height="200" src="img/magaly.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:magaly.alarcon@saesa.cl">magaly.alarcon@saesa.cl</a></center>
 
@@ -316,9 +310,9 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Sergio">Soporte Informático Puerto Montt</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/sergio.png"></center>
+                                <center><img width="100%" height="200" src="img/sergio.JPG"></center>
                                 <hr>
-                                <center>Email: <a href="mailto:sergio.albarracin@saesa.cl">sergio.albarracin@saesa.cl</a></center>
+                                <center>Email: <a href="#">contacto@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
@@ -337,7 +331,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Victor">Soporte Informático Osorno</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/victor.png"></center>
+                                <center><img width="100%" height="200" src="img/victor.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:victor.contreras@saesa.cl">victor.contreras@saesa.cl</a></center>
 
@@ -359,7 +353,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Beatriz">Soporte Informático Coyhaique </h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/beatriz.png"></center>
+                                <center><img width="100%" height="200" src="img/beatriz.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:beatriz.gueicha@saesa.cl">beatriz.gueicha@saesa.cl</a></center>
 
@@ -381,7 +375,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Jaime">Soporte Informático Temuco</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/jaime.png"></center>
+                                <center><img width="100%" height="200" src="img/jaime.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:jaime.maldonado@saesa.cl">jaime.maldonado@saesa.cl</a></center>
 
@@ -403,7 +397,7 @@ $apellidos = $fila['apellidos'];
                                 <center><h2 class="modal-title" id="Ricardo">Soporte Informático Concepción</h2></center>
                               </div>
                               <div class="modal-body">
-                                <center><img class="img" width="500" height="250" src="img/ricardo.png"></center>
+                                <center><img width="100%" height="200" src="img/ricardo.png"></center>
                                 <hr>
                                 <center>Email: <a href="mailto:ricardo.munoz@saesa.cl">ricardo.munoz@saesa.cl</a></center>
 
@@ -485,10 +479,10 @@ $apellidos = $fila['apellidos'];
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/sergio.png" data-toggle="modal" data-target="#Sergio">
+                    <img class="img-responsive" src="img/sergio.jpg" data-toggle="modal" data-target="#Sergio">
                     </img> 
                     <div class="caption">
-                        <h3>Sergio Albarracín<br>
+                        <h3>NN<br>
                             <small>Soporte Informático Pto. Montt</small>
                         </h3>
                         <ul class="list-inline">
