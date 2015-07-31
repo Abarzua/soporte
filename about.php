@@ -312,7 +312,7 @@ $apellidos = $fila['apellidos'];
                               <div class="modal-body">
                                 <center><img width="100%" height="200" src="img/sergio.JPG"></center>
                                 <hr>
-                                <center>Email: <a href="#">contacto@saesa.cl</a></center>
+                                <center>Email: <a href="mailto:eduardo.baeza@saesa.cl">eduardo.baeza@saesa.cl</a></center>
 
                               </div>
                               <div class="modal-footer">
