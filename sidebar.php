@@ -26,10 +26,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script language="JavaScript">
+  
+<!--    
+    function fun_iFrameWrite(par_ID_iFrame, par_URL){
+       document.getElementById(par_ID_iFrame).src = par_URL;
+    }
+  -->
+</script>
 
 </head>
 
-<body>
+<body onload="javascript:fun_iFrameWrite('iFrame_SQL','http://www.google.com')">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -67,6 +75,7 @@
                             </li>
                             <li>
                                 <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <iframe id="external" style="width:100%;height:300px" src="http://www.google.com.ar/"></iframe>
                             </li>
                             <li>
                                 <a href="portfolio-4-col.html">4 Column Portfolio</a>
@@ -163,9 +172,15 @@
             <div class="col-md-9">
                 <h2>Section Heading</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
+                <iframe id="iFrame_SQL" name="iFrame_SQL" width=100% height=85%></iframe><br />
+   
+    <a href="#" onclick="javascript:fun_iFrameWrite('iFrame_SQL','http://10.10.11.227:8080/public/login.htm?')">Update Iframe a YAHOO</a><br>
+    <a href="#" onclick="javascript:fun_iFrameWrite('iFrame_SQL','http://www.google.com')">Update Iframe a GOOGLE</a><br>
+
+                
             </div>
         </div>
-        <!-- /.row -->
+        <!-- /.row -->x
 
         <hr>
 

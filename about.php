@@ -80,7 +80,7 @@ $apellidos = $fila['apellidos'];
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                        <a href="about.php">QUIENES SOMOS?</a>
+                        <a href="about.php">QUIENES SOMOS</a>
                     </li>
                     <li>
                         <a href="services.php">SERVICIOS</a>
